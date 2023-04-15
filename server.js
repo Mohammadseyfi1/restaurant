@@ -6,7 +6,7 @@ const server = http.createServer(app)
 
 async function start() {
     await mongoConnect()
-    server.listen(3000, function () {
+    server.listen(8000, function () {
         console.log("server is listening on port 3000");
     })
 }
